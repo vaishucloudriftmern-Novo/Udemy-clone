@@ -1,0 +1,128 @@
+body{
+    background-color:rgb(240, 242, 244);
+}
+.container-one {
+    background-color: rgb(134, 107, 166);
+    color: black;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.button-one,
+.button-two {
+    justify-content: flex-end;
+}
+
+.logo {
+    max-height: 40px;
+    width: 80px;
+    display: block;
+}
+
+.center {
+    display: flex;
+    gap: 20px;
+}
+
+.center-input {
+    background: url('https://cdn-icons-png.flaticon.com/512/622/622669.png') no-repeat 10px center;
+    background-size: 12px 12px;
+    padding-left: 35px;
+    background-color: beige;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid white;
+
+
+}
+
+.right {
+    display: flex;
+    gap: 10px;
+}
+
+.button-one,
+.button-two {
+    padding: 8px 14px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container-two {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap:nowrap;
+}
+
+.box-one,
+.box-two,
+.box-three {
+    flex:1;
+    background-color: rgb(107, 103, 170);
+    border: 3px solid black;
+    border-radius: 8px;
+    min-width: 280px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.course-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.container-two {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+     margin-top: 40px;
+}
+
+.box-one.btn-container,.box-two.btn-container,.box-three.btn-container {
+    background-color:rgb(160, 101, 160);
+    flex: 1 1 30%;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.course-descrip {
+
+    font-size: 14px;
+    color: #0c0c0c;
+    margin-bottom: 15px;
+}
+.btn-container{
+    display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.footer {
+    margin-top: 60px;
+    background-color: rgb(134, 107, 166);
+    color:black;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #444;
+}
